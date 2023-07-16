@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+ 
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 120px;
+    background: #11141a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+ 
+.logo {
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+ 
+nav a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+ 
+nav a:hover,
+nav a.active {
+    color: #0ef;
+}
+ 
+section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1f242d;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 700;
+}
+ 
+section:nth-child(odd) {
+    background: #323946;
+}
+
+@keyframes slideInLeft {
+    from{
+        transform: translateX(-300px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+
+.Heading{
+    animation-name: slideInLeft;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+
+    transform: translateX(0px);
+}
+h1{
+    color: #ffffff;
+    font-size: 30px;
+    position: absolute;
+    top: 150px;
+    left: 40px;
+}
+.Heading2{
+    left: 235px;
+    color: #0ef;
+    animation-name: slideInLeft;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+
+    transform: translateX(0px);
+}
+.About{
+    top: 750px;
+    animation-name: slideInLeft;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+
+    transform: translateX(0px);
+}
+.About2{
+    top: 750px;
+    left: 69px;
+    color: #0ef;
+    animation-name: slideInLeft;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+
+    transform: translateX(0px);
+}
+.Promo{
+    font-size: 20px;
+    top: 2970px;
+    position: absolute;
+    color: #fff;
+}
+.Promo1{
+    left: 245px;
+    font-size: 20px;
+    top: 2970px;
+    position: absolute;
+    color: #0ef;
+}
+.C{
+    left: 1050px;
+    font-size: 20px;
+    top: 2970px;
+    position: absolute;
+    color: #fff;
+}
